@@ -1,0 +1,26 @@
+# /etc/conf.d/zerodbd: config file for /etc/init.d/zerodbd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/zerodb/zerodb.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/zerodbd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/zerodbd.pid"
+
+# Where to write zerodbd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/zerodbd"
+
+# User and group to own zerodbd process
+#BITCOIND_USER="zerodb"
+#BITCOIND_GROUP="zerodb"
+
+# Path to zerodbd executable
+#BITCOIND_BIN="/usr/bin/zerodbd"
+
+# Nice value to run zerodbd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

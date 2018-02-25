@@ -1,0 +1,26 @@
+[Unit]
+Description=zerodb's distributed currency daemon
+After=network.target
+
+[Service]
+User=zerodb
+Group=zerodb
+
+Type=forking
+PIDFile=/var/lib/zerodbd/zerodbd.pid
+
+ExecStart=/usr/bin/zerodbd -daemon -pid=/var/lib/zerodbd/zerodbd.pid \
+          -conf=/etc/zerodb/zerodb.conf -datadir=/var/lib/zerodbd
+
+ExecStop=-/usr/bin/zerodb-cli -conf=/etc/zerodb/zerodb.conf \
+         -datadir=/var/lib/zerodbd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

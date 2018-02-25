@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=zerodb
+Comment=zerodb P2P Cryptocurrency
+Comment[fr]=zerodb, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=zerodb, eşten eşe kriptografik sanal para birimi
+Exec=zerodb-qt %u
+Terminal=false
+Type=Application
+Icon=zerodb128
+MimeType=x-scheme-handler/zerodb;
+Categories=Office;Finance;

@@ -1,0 +1,28 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zerodb_bg.qm</file>
+        <file alias="ca">locale/zerodb_ca.qm</file>
+        <file alias="cs">locale/zerodb_cs.qm</file>
+        <file alias="da">locale/zerodb_da.qm</file>
+        <file alias="de">locale/zerodb_de.qm</file>
+        <file alias="en">locale/zerodb_en.qm</file>
+        <file alias="en_US">locale/zerodb_en_US.qm</file>
+        <file alias="es">locale/zerodb_es.qm</file>
+        <file alias="fi">locale/zerodb_fi.qm</file>
+        <file alias="fr_FR">locale/zerodb_fr_FR.qm</file>
+        <file alias="it">locale/zerodb_it.qm</file>
+        <file alias="ja">locale/zerodb_ja.qm</file>
+        <file alias="ko_KR">locale/zerodb_ko_KR.qm</file>
+        <file alias="nl">locale/zerodb_nl.qm</file>
+        <file alias="pl">locale/zerodb_pl.qm</file>
+        <file alias="pt">locale/zerodb_pt.qm</file>
+        <file alias="pt_BR">locale/zerodb_pt_BR.qm</file>
+        <file alias="ro_RO">locale/zerodb_ro_RO.qm</file>
+        <file alias="ru">locale/zerodb_ru.qm</file>
+        <file alias="sk">locale/zerodb_sk.qm</file>
+        <file alias="sv">locale/zerodb_sv.qm</file>
+        <file alias="uk">locale/zerodb_uk.qm</file>
+        <file alias="zh_CN">locale/zerodb_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zerodb_zh_TW.qm</file>
+    </qresource>
+</RCC>
